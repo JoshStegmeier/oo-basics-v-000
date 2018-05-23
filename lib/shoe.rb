@@ -6,4 +6,9 @@ class Shoe
     @brand = brand_input
   end
 
+  def cobble
+    self.condition = new
+    puts "repaired!"
+  end
+
 end
